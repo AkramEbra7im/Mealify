@@ -1,0 +1,168 @@
+@media screen and (max-width:1400px) {
+    .container {
+        width: 72rem;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .container {
+        width: 60rem;
+    }
+
+    .gallery-photos {
+        height: 52.8rem;
+    }
+
+    .footer .subscribe {
+        margin-top: 2rem;
+        width: 100%;
+        order: 1;
+    }
+
+    .footer .contact-details {
+        width: 49%
+    }
+
+    .footer .about {
+        width: 49%;
+    }
+
+    .navbar ul {
+        width: 30%;
+    }
+
+    /*  */
+
+
+}
+
+@media screen and (max-width:992px) {
+    .container {
+        width: 45rem;
+    }
+
+    .navbar ul {
+        width: 40%;
+    }
+    /* start home */
+    .home {
+        height: auto;
+        text-align: center;
+        padding: 8rem 0 2rem;
+    }
+
+    .home .container {
+        justify-content: center;
+    }
+
+    .home .content {
+        width: 100%;
+        order: 1;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .home .content h2 {
+        width: 70%;
+        font-size: 4rem;
+    }
+
+    .home .content p {
+        font-size: 1rem;
+        width: 97%;
+    }
+
+    .home .picture {
+        width: 100%;
+        order: 0;
+    }
+
+    /* end home */
+
+    /* satrt chefs */
+    .chefs-cards {
+        justify-content: flex-start;
+        gap: 1.8rem;
+    }
+
+    .chefs-cards .card {
+        width: 48%
+    }
+
+    /* end chefs */
+
+    /* start gallery */
+    .gallery-photos .picture {
+        width: 49%;
+    }
+
+    .gallery-photos {
+        height: 86.2rem;
+    }
+    /* end gallery */
+
+    /* satrt contact */
+    .contact form input {
+        width: 100%;
+    }
+    /* end contact */
+}
+
+@media screen and (max-width:770px){
+    .container {
+        width: 34rem;
+    }
+
+    .navbar ul {
+        width: 50%;
+    }
+
+    .chefs-cards .card {
+        width: 100%
+    }
+
+    .gallery-photos .picture {
+        width: 97%;
+    }
+
+    .gallery-photos {
+        height: auto;
+    }
+
+    
+    .content .option{
+        width: 100%;
+    }
+    
+    .footer .subscribe {
+        margin-bottom: 1rem;
+        order: 0;
+    }
+
+    .footer .contact-details {
+        width: 100%;
+    }
+
+    .footer .about {
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width:545px){
+    .container{
+        width: 99%;
+    }
+
+    .navbar ul{
+        width: auto;
+        flex-direction: column;
+    }
+
+    .home {
+        padding-top: 11rem;
+    }
+    
+}
