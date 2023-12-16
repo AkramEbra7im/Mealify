@@ -323,6 +323,10 @@ ul {
     left: 0;
 }
 
+.card-content{
+    margin-top: 1rem;
+}
+
 .chefs-cards .card-content * {
     margin: 0;
 }
